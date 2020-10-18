@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Created on Tue Feb 21 12:38:13 2017
 @author: Ana-Maria.Mocanu
@@ -20,7 +19,7 @@ def process_coordinate_string(list_test):
 
     return ret
 
-def load(path1, path2):
+def load_convert(path1, path2):
     """
     Open the KML. Read the KML. Open a CSV file. Process a coordinate string to be a CSV row.
     """
